@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "IDPhoto Maker",
+    "subtitle": "100% Local Processing · Privacy First",
+    "privacyNote": "Your photos never leave your device. All processing happens locally in your browser."
+  },
+  "steps": {
+    "upload": "Upload",
+    "crop": "Crop",
+    "background": "Background",
+    "layout": "Layout"
+  },
+  "home": {
+    "uploadPhoto": "Upload Photo",
+    "takePhoto": "Take Photo",
+    "dragDrop": "Drag photo here, or click to select file",
+    "supportFormat": "Supports JPG, PNG",
+    "camera": "Open Camera",
+    "switchCamera": "Switch Camera",
+    "capture": "Capture",
+    "retake": "Retake",
+    "usePhoto": "Use This Photo",
+    "cameraError": "Cannot access camera. Please grant permission.",
+    "or": "or"
+  },
+  "crop": {
+    "title": "Crop & Align",
+    "selectSpec": "Select ID Photo Type",
+    "headTopLine": "Head Top",
+    "chinLine": "Chin",
+    "centerLine": "Center",
+    "guideTip": "Zoom and drag the photo to align your face with the guidelines.",
+    "confirm": "Confirm Crop",
+    "pinchZoomTip": "Pinch to zoom, drag to move"
+  },
+  "specs": {
+    "ukPassport": "UK Passport (35×45mm)",
+    "usVisa": "US Visa (51×51mm)",
+    "hkPassport": "HK SAR Passport (40×50mm)",
+    "chinaVisa": "China Visa (33×48mm)",
+    "schengenVisa": "Schengen Visa (35×45mm)",
+    "japanVisa": "Japan Visa (45×45mm)"
+  },
+  "background": {
+    "title": "Background",
+    "processing": "Removing background…",
+    "processingTip": "AI model processing, please wait",
+    "done": "Background removed",
+    "failed": "Background removal failed. Your device may not support WebGL.",
+    "selectColor": "Select Background Color",
+    "white": "White",
+    "lightBlue": "Light Blue",
+    "lightGrey": "Light Grey",
+    "red": "Red",
+    "custom": "Custom",
+    "promptTitle": "Remove Background?",
+    "promptDesc": "AI will automatically remove the photo background so you can replace it with a solid color. Skip if not needed.",
+    "promptRemove": "Remove Background",
+    "promptSkip": "No thanks, continue",
+    "skip": "Skip Background Removal",
+    "skipKeepOriginal": "Skip, keep original background",
+    "next": "Next",
+    "retry": "Retry",
+    "edgeRefine": "Edge Refinement",
+    "edgeTight": "Tight",
+    "edgeLoose": "Loose",
+    "edgeTip": "If head or clothes are cut off, drag the slider right to expand the mask edge."
+  },
+  "layout": {
+    "title": "Layout & Download",
+    "selectPaper": "Select Paper Size",
+    "layoutInfo": "{paper} — {cols}×{rows} layout, {total} photos",
+    "downloadJpg": "Download JPG",
+    "downloadPng": "Download PNG",
+    "printTip": "Print Tip: Use \"Actual Size\" or 100% scale. Do not use \"Fit to Page\".",
+    "preview": "Preview"
+  },
+  "paper": {
+    "4r": "4R (4×6 in / 102×152mm)",
+    "3r": "3R (3.5×5 in / 89×127mm)"
+  },
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loading": "Loading…",
+    "error": "Error",
+    "langSwitch": "中"
+  }
+}

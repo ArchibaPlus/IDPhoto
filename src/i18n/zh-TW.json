@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "證件相快排",
+    "subtitle": "純本地處理・保障隱私",
+    "privacyNote": "您的照片不會上傳至任何伺服器，所有處理均在瀏覽器本地完成。"
+  },
+  "steps": {
+    "upload": "上傳照片",
+    "crop": "裁剪對齊",
+    "background": "背景處理",
+    "layout": "排版下載"
+  },
+  "home": {
+    "uploadPhoto": "上傳照片",
+    "takePhoto": "拍攝照片",
+    "dragDrop": "拖曳照片至此，或點擊選擇檔案",
+    "supportFormat": "支援 JPG、PNG 格式",
+    "camera": "開啟相機",
+    "switchCamera": "切換鏡頭",
+    "capture": "拍攝",
+    "retake": "重拍",
+    "usePhoto": "使用此照片",
+    "cameraError": "無法存取相機，請確認已授予權限。",
+    "or": "或"
+  },
+  "crop": {
+    "title": "裁剪與對齊",
+    "selectSpec": "選擇證件相規格",
+    "headTopLine": "頭頂線",
+    "chinLine": "下巴線",
+    "centerLine": "中軸線",
+    "guideTip": "請縮放並拖曳照片，將臉部對齊輔助線。",
+    "confirm": "確認裁剪",
+    "pinchZoomTip": "雙指可縮放，單指可拖曳"
+  },
+  "specs": {
+    "ukPassport": "英國護照 (35×45mm)",
+    "usVisa": "美國簽證 (51×51mm)",
+    "hkPassport": "特區護照 (40×50mm)",
+    "chinaVisa": "中國簽證 (33×48mm)",
+    "schengenVisa": "申根簽證 (35×45mm)",
+    "japanVisa": "日本簽證 (45×45mm)"
+  },
+  "background": {
+    "title": "背景處理",
+    "processing": "正在去除背景…",
+    "processingTip": "AI 模型運算中，請稍候",
+    "done": "背景去除完成",
+    "failed": "背景去除失敗，您的設備可能不支援 WebGL。",
+    "selectColor": "選擇背景顏色",
+    "white": "白色",
+    "lightBlue": "淺藍",
+    "lightGrey": "淺灰",
+    "red": "紅色",
+    "custom": "自訂",
+    "promptTitle": "是否去除背景？",
+    "promptDesc": "AI 將自動去除照片背景，讓您替換為純色底色。如不需要，可直接跳過。",
+    "promptRemove": "去除背景",
+    "promptSkip": "不需要，直接下一步",
+    "skip": "跳過去背",
+    "skipKeepOriginal": "跳過，使用原始背景",
+    "next": "下一步",
+    "retry": "重試",
+    "edgeRefine": "邊緣修正",
+    "edgeTight": "緊",
+    "edgeLoose": "鬆",
+    "edgeTip": "如果頭部或衣服被裁掉，請向右拖曳滑桿以擴展邊緣。"
+  },
+  "layout": {
+    "title": "排版與下載",
+    "selectPaper": "選擇相紙尺寸",
+    "layoutInfo": "{paper} 相紙 — {cols}×{rows} 排版，共 {total} 張",
+    "downloadJpg": "下載 JPG",
+    "downloadPng": "下載 PNG",
+    "printTip": "列印提示：請使用「實際大小」或 100% 比例列印，勿選「符合頁面」。",
+    "preview": "預覽"
+  },
+  "paper": {
+    "4r": "4R (4×6 吋 / 102×152mm)",
+    "3r": "3R (3.5×5 吋 / 89×127mm)"
+  },
+  "common": {
+    "back": "返回",
+    "next": "下一步",
+    "cancel": "取消",
+    "confirm": "確認",
+    "loading": "載入中…",
+    "error": "發生錯誤",
+    "langSwitch": "EN"
+  }
+}
