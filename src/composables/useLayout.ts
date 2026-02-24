@@ -61,7 +61,9 @@ export function useLayout() {
     const ext = format === 'image/jpeg' ? 'jpg' : 'png'
     const quality = format === 'image/jpeg' ? 0.95 : 1
     const blob = await canvasToBlob(layoutCanvas.value, format, quality)
-    const filename = `${specId}_${paperId}_300dpi.${ext}`
+    const now = new Date()
+    const ts = `${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}`
+    const filename = `${specId}_${paperId}_300dpi_${ts}.${ext}`
     downloadBlob(blob, filename)
   }
 
